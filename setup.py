@@ -35,7 +35,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Fabian Balsiger',
     author_email='fabian.balsiger@artorg.unibe.ch',
-    url='https://openreview.net/forum?id=HyeuSq9ke4',
+    url='https://doi.org/10.1007/978-3-030-32245-8_31',
     license='GNU GENERAL PUBLIC LICENSE',
     packages=find_packages(exclude=['test', 'docs']),
     install_requires=REQUIRED_PACKAGES,
