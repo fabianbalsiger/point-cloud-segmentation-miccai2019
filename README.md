@@ -29,7 +29,7 @@ This should install all required dependencies. Please refer to the official Tens
 
 ## Usage
 
-We shortly describe the training and testing procedure.
+We shortly describe the training procedure.
 The data used in the paper is not publicly available. But, we provide a script to generate dummy data such that you are able to run the code.
 
 ### Dummy Data Generation and Configuration

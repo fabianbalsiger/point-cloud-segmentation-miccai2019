@@ -52,8 +52,8 @@ setup(
         'Topic :: Scientific/Engineering :: Physics',
     ],
     keywords=[
-        'image reconstruction',
+        'image segmentation',
         'deep learning',
-        'magnetic resonance fingerprinting'
+        'point cloud'
     ]
 )
