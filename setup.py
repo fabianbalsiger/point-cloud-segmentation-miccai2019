@@ -12,15 +12,16 @@ with open(os.path.join('README.md'), encoding='utf-8') as f:
 
 REQUIRED_PACKAGES = [
     'tensorflow-gpu == 1.12.0',  # install this dependency before all others to ensure correct package versions
-    'matplotlib >= 3.0.3',
-    'numpy == 1.14.5',
-    'pandas >= 0.24.1',
-    'plotly >= 3.7.0',
-    'SimpleITK >= 1.2.0',
-    'scikit-image >= 0.4.12',
-    'scipy >= 1.1.0',
-    'pymia == 0.2.1',  # newer versions might not work due to active development of pymia!
-    'torch',  # only used for data loading (and already a dependency of pymia)
+    'matplotlib == 3.1.1',
+    'numpy == 1.17.4',
+    'pandas == 0.25.3',
+    'plotly == 4.2.1',
+    'SimpleITK == 1.2.3',
+    'scikit-image == 0.16.2',
+    'scipy == 1.3.2',
+    'pymia == 0.2.2',
+    'torch == 1.3.1',  # only used for data loading
+    'tensorboardX == 1.9',
 ]
 
 TEST_PACKAGES = [
