@@ -22,7 +22,7 @@ Third, install the required libraries:
 
 Fourth, compile the required TensorFlow extension for farthest point sampling. Note that you might need to edit ``compile.sh`` such that the compilation works.
 
-        $ cd nerve/model/sampling
+        $ cd pc/model/sampling
         $ ./compile.sh
 
 This should install all required dependencies. Please refer to the official TensorFlow documentation on how to use TensorFlow with [GPU support](https://www.tensorflow.org/install/gpu).
