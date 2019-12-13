@@ -57,6 +57,7 @@ def main(config_file: str):
         tf.get_default_graph().finalize()  # to ensure that no ops are added during training, which would lead to
         # a growing graph
         trainer.train()
+        logger.close()
 
 
 if __name__ == '__main__':
