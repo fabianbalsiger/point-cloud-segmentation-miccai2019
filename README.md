@@ -98,4 +98,4 @@ year = {2019}
 
 ## License
 
-The code is published under the [MIT License](https://github.com/fabianbalsiger/mrf-reconstruction-midl2019/blob/master/LICENSE).
+The code is published under the [MIT License](https://github.com/fabianbalsiger/point-cloud-segmentation-miccai2019/blob/master/LICENSE).
