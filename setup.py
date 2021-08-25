@@ -11,7 +11,7 @@ with open(os.path.join('README.md'), encoding='utf-8') as f:
     readme = f.read()
 
 REQUIRED_PACKAGES = [
-    'tensorflow-gpu == 1.12.0',  # install this dependency before all others to ensure correct package versions
+    'tensorflow-gpu == 2.5.1',  # install this dependency before all others to ensure correct package versions
     'matplotlib == 3.1.1',
     'numpy == 1.17.4',
     'pandas == 0.25.3',
